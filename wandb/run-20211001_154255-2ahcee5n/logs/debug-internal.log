@@ -1,0 +1,209 @@
+2021-10-01 15:42:56,619 INFO    MainThread:141009 [internal.py:wandb_internal():89] W&B internal server running at pid: 141009, started at: 2021-10-01 15:42:56.618950
+2021-10-01 15:42:56,620 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: check_version
+2021-10-01 15:42:56,620 INFO    WriterThread:141009 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/run-2ahcee5n.wandb
+2021-10-01 15:42:56,622 DEBUG   SenderThread:141009 [sender.py:send():182] send: header
+2021-10-01 15:42:56,622 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: check_version
+2021-10-01 15:42:57,083 DEBUG   SenderThread:141009 [sender.py:send():182] send: run
+2021-10-01 15:42:57,086 DEBUG   SenderThread:141009 [git.py:repo():33] git repository is invalid
+2021-10-01 15:42:57,661 INFO    SenderThread:141009 [dir_watcher.py:__init__():169] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files
+2021-10-01 15:42:57,661 INFO    SenderThread:141009 [sender.py:_start_run_threads():743] run started: 2ahcee5n with start time 1633083176
+2021-10-01 15:42:57,661 DEBUG   SenderThread:141009 [sender.py:send():182] send: summary
+2021-10-01 15:42:57,662 INFO    SenderThread:141009 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-01 15:42:57,662 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: run_start
+2021-10-01 15:42:57,665 DEBUG   HandlerThread:141009 [meta.py:__init__():40] meta init
+2021-10-01 15:42:57,665 DEBUG   HandlerThread:141009 [meta.py:__init__():54] meta init done
+2021-10-01 15:42:57,665 DEBUG   HandlerThread:141009 [meta.py:probe():211] probe
+2021-10-01 15:42:57,671 DEBUG   HandlerThread:141009 [git.py:repo():33] git repository is invalid
+2021-10-01 15:42:57,671 DEBUG   HandlerThread:141009 [meta.py:_save_code():90] save code
+2021-10-01 15:42:57,671 WARNING HandlerThread:141009 [meta.py:_save_code():92] unable to save code -- program entry not found
+2021-10-01 15:42:57,671 DEBUG   HandlerThread:141009 [meta.py:_save_pip():58] save pip
+2021-10-01 15:42:57,672 DEBUG   HandlerThread:141009 [meta.py:_save_pip():72] save pip done
+2021-10-01 15:42:57,672 DEBUG   HandlerThread:141009 [meta.py:_save_conda():79] save conda
+2021-10-01 15:42:58,664 INFO    Thread-8  :141009 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/conda-environment.yaml
+2021-10-01 15:42:58,665 INFO    Thread-8  :141009 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/wandb-summary.json
+2021-10-01 15:42:58,665 INFO    Thread-8  :141009 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/requirements.txt
+2021-10-01 15:43:03,668 INFO    Thread-8  :141009 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/output.log
+2021-10-01 15:43:04,652 DEBUG   HandlerThread:141009 [meta.py:_save_conda():87] save conda done
+2021-10-01 15:43:04,652 DEBUG   HandlerThread:141009 [meta.py:probe():249] probe done
+2021-10-01 15:43:04,668 INFO    Thread-8  :141009 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/conda-environment.yaml
+2021-10-01 15:43:04,669 INFO    Thread-8  :141009 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/wandb-metadata.json
+2021-10-01 15:43:04,676 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-01 15:43:04,676 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: stop_status
+2021-10-01 15:43:04,676 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: log_artifact
+2021-10-01 15:43:04,681 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: pause
+2021-10-01 15:43:04,681 INFO    HandlerThread:141009 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-10-01 15:43:05,249 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: log_artifact
+2021-10-01 15:43:05,669 INFO    Thread-8  :141009 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/output.log
+2021-10-01 15:43:08,508 INFO    Thread-12 :141009 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/41/6cbd733fdc9226515a628b5d4a9be4
+2021-10-01 15:43:10,574 DEBUG   SenderThread:141009 [sender.py:send():182] send: files
+2021-10-01 15:43:10,575 INFO    SenderThread:141009 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-10-01 15:43:10,575 DEBUG   SenderThread:141009 [sender.py:send():182] send: stats
+2021-10-01 15:43:12,128 INFO    Thread-13 :141009 [upload_job.py:push():137] Uploaded file /tmp/tmpz6rl2aicwandb/w9lr4rqu-wandb-metadata.json
+2021-10-01 15:43:20,250 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-01 15:43:20,500 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: stop_status
+2021-10-01 15:43:25,086 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: resume
+2021-10-01 15:43:25,086 INFO    HandlerThread:141009 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-10-01 15:43:25,644 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: log_artifact
+2021-10-01 15:43:25,644 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: log_artifact
+2021-10-01 15:43:25,649 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: pause
+2021-10-01 15:43:25,649 INFO    HandlerThread:141009 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-10-01 15:43:25,717 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: resume
+2021-10-01 15:43:25,717 INFO    HandlerThread:141009 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-10-01 15:43:26,219 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: log_artifact
+2021-10-01 15:43:26,222 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: pause
+2021-10-01 15:43:26,222 INFO    HandlerThread:141009 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-10-01 15:43:26,242 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: resume
+2021-10-01 15:43:26,242 INFO    HandlerThread:141009 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-10-01 15:43:26,675 INFO    Thread-8  :141009 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/code/_session_history.ipynb
+2021-10-01 15:43:26,675 INFO    Thread-8  :141009 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/code
+2021-10-01 15:43:26,790 DEBUG   SenderThread:141009 [sender.py:send():182] send: stats
+2021-10-01 15:43:26,790 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: log_artifact
+2021-10-01 15:43:27,264 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: log_artifact
+2021-10-01 15:43:27,703 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:27,918 DEBUG   SenderThread:141009 [sender.py:send():182] send: stats
+2021-10-01 15:43:27,918 DEBUG   SenderThread:141009 [sender.py:send():182] send: config
+2021-10-01 15:43:27,918 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: log_artifact
+2021-10-01 15:43:28,676 INFO    Thread-8  :141009 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/output.log
+2021-10-01 15:43:30,263 INFO    Thread-18 :141009 [upload_job.py:push():92] Skipped uploading /home/indika/.cache/wandb/artifacts/obj/md5/41/6cbd733fdc9226515a628b5d4a9be4
+2021-10-01 15:43:30,997 INFO    Thread-19 :141009 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/24/3923d6626981691fec7da8c1f4def3
+2021-10-01 15:43:32,803 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:32,993 DEBUG   SenderThread:141009 [sender.py:send():182] send: telemetry
+2021-10-01 15:43:32,993 DEBUG   SenderThread:141009 [sender.py:send():182] send: exit
+2021-10-01 15:43:32,994 INFO    SenderThread:141009 [sender.py:send_exit():291] handling exit code: 0
+2021-10-01 15:43:32,994 INFO    SenderThread:141009 [sender.py:send_exit():293] handling runtime: 9
+2021-10-01 15:43:32,998 INFO    SenderThread:141009 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-01 15:43:32,998 INFO    SenderThread:141009 [sender.py:send_exit():303] send defer
+2021-10-01 15:43:32,998 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:32,998 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:32,999 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 15:43:32,999 INFO    HandlerThread:141009 [handler.py:handle_request_defer():143] handle defer: 0
+2021-10-01 15:43:32,999 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: defer
+2021-10-01 15:43:32,999 INFO    SenderThread:141009 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-10-01 15:43:32,999 INFO    SenderThread:141009 [sender.py:transition_state():316] send defer: 1
+2021-10-01 15:43:32,999 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 15:43:33,000 INFO    HandlerThread:141009 [handler.py:handle_request_defer():143] handle defer: 1
+2021-10-01 15:43:33,113 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: defer
+2021-10-01 15:43:33,113 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:33,113 INFO    SenderThread:141009 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-10-01 15:43:33,114 INFO    SenderThread:141009 [sender.py:transition_state():316] send defer: 2
+2021-10-01 15:43:33,114 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:33,114 DEBUG   SenderThread:141009 [sender.py:send():182] send: stats
+2021-10-01 15:43:33,114 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 15:43:33,114 INFO    HandlerThread:141009 [handler.py:handle_request_defer():143] handle defer: 2
+2021-10-01 15:43:33,114 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: defer
+2021-10-01 15:43:33,115 INFO    SenderThread:141009 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-10-01 15:43:33,115 INFO    SenderThread:141009 [sender.py:transition_state():316] send defer: 3
+2021-10-01 15:43:33,115 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 15:43:33,115 INFO    HandlerThread:141009 [handler.py:handle_request_defer():143] handle defer: 3
+2021-10-01 15:43:33,115 DEBUG   SenderThread:141009 [sender.py:send():182] send: summary
+2021-10-01 15:43:33,115 INFO    SenderThread:141009 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-01 15:43:33,115 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: defer
+2021-10-01 15:43:33,115 INFO    SenderThread:141009 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-10-01 15:43:33,115 INFO    SenderThread:141009 [sender.py:transition_state():316] send defer: 4
+2021-10-01 15:43:33,116 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 15:43:33,116 INFO    HandlerThread:141009 [handler.py:handle_request_defer():143] handle defer: 4
+2021-10-01 15:43:33,116 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: defer
+2021-10-01 15:43:33,116 INFO    SenderThread:141009 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-10-01 15:43:33,215 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:33,678 INFO    Thread-8  :141009 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/wandb-summary.json
+2021-10-01 15:43:33,686 INFO    SenderThread:141009 [sender.py:transition_state():316] send defer: 5
+2021-10-01 15:43:33,686 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:33,686 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 15:43:33,686 INFO    HandlerThread:141009 [handler.py:handle_request_defer():143] handle defer: 5
+2021-10-01 15:43:33,687 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: defer
+2021-10-01 15:43:33,687 INFO    SenderThread:141009 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-10-01 15:43:33,687 INFO    SenderThread:141009 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-01 15:43:33,788 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:34,678 INFO    Thread-8  :141009 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/config.yaml
+2021-10-01 15:43:34,679 INFO    SenderThread:141009 [dir_watcher.py:finish():313] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files
+2021-10-01 15:43:34,679 INFO    SenderThread:141009 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/output.log output.log
+2021-10-01 15:43:34,679 INFO    SenderThread:141009 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/config.yaml config.yaml
+2021-10-01 15:43:34,685 INFO    SenderThread:141009 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/conda-environment.yaml conda-environment.yaml
+2021-10-01 15:43:34,691 INFO    SenderThread:141009 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/wandb-metadata.json wandb-metadata.json
+2021-10-01 15:43:34,691 INFO    SenderThread:141009 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/requirements.txt requirements.txt
+2021-10-01 15:43:34,696 INFO    SenderThread:141009 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/wandb-summary.json wandb-summary.json
+2021-10-01 15:43:34,701 INFO    SenderThread:141009 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/code/_session_history.ipynb code/_session_history.ipynb
+2021-10-01 15:43:34,704 INFO    SenderThread:141009 [sender.py:transition_state():316] send defer: 6
+2021-10-01 15:43:34,704 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:34,704 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 15:43:34,705 INFO    HandlerThread:141009 [handler.py:handle_request_defer():143] handle defer: 6
+2021-10-01 15:43:34,711 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: defer
+2021-10-01 15:43:34,711 INFO    SenderThread:141009 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-10-01 15:43:34,711 INFO    SenderThread:141009 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-01 15:43:34,807 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:34,807 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:34,909 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:34,910 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:35,011 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:35,011 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:35,112 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:35,112 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:35,213 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:35,214 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:35,315 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:35,315 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:35,416 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:35,417 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:35,518 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:35,519 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:35,625 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:35,626 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:35,728 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:35,728 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:35,830 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:35,830 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:35,931 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:35,931 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:36,034 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:36,034 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:36,058 INFO    Thread-23 :141009 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/requirements.txt
+2021-10-01 15:43:36,102 INFO    Thread-20 :141009 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/output.log
+2021-10-01 15:43:36,135 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:36,136 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:36,152 INFO    Thread-24 :141009 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/wandb-summary.json
+2021-10-01 15:43:36,158 INFO    Thread-22 :141009 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/conda-environment.yaml
+2021-10-01 15:43:36,163 INFO    Thread-21 :141009 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/config.yaml
+2021-10-01 15:43:36,237 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:36,237 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:36,338 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:36,338 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:36,439 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:36,439 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:36,540 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:36,540 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:36,548 INFO    Thread-25 :141009 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/files/code/_session_history.ipynb
+2021-10-01 15:43:36,641 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:36,642 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:36,743 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:36,743 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:36,749 INFO    Thread-7  :141009 [sender.py:transition_state():316] send defer: 7
+2021-10-01 15:43:36,749 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 15:43:36,750 INFO    HandlerThread:141009 [handler.py:handle_request_defer():143] handle defer: 7
+2021-10-01 15:43:36,750 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: defer
+2021-10-01 15:43:36,750 INFO    SenderThread:141009 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-10-01 15:43:36,844 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:37,103 INFO    SenderThread:141009 [sender.py:transition_state():316] send defer: 8
+2021-10-01 15:43:37,103 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:37,104 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 15:43:37,104 INFO    HandlerThread:141009 [handler.py:handle_request_defer():143] handle defer: 8
+2021-10-01 15:43:37,104 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: defer
+2021-10-01 15:43:37,104 INFO    SenderThread:141009 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-10-01 15:43:37,104 INFO    SenderThread:141009 [sender.py:transition_state():316] send defer: 9
+2021-10-01 15:43:37,105 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 15:43:37,105 DEBUG   SenderThread:141009 [sender.py:send():182] send: final
+2021-10-01 15:43:37,105 INFO    HandlerThread:141009 [handler.py:handle_request_defer():143] handle defer: 9
+2021-10-01 15:43:37,105 DEBUG   SenderThread:141009 [sender.py:send():182] send: footer
+2021-10-01 15:43:37,105 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: defer
+2021-10-01 15:43:37,106 INFO    SenderThread:141009 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-10-01 15:43:37,204 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 15:43:37,205 DEBUG   SenderThread:141009 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 15:43:37,205 INFO    SenderThread:141009 [file_pusher.py:join():182] waiting for file pusher
+2021-10-01 15:43:37,206 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: get_summary
+2021-10-01 15:43:37,207 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: sampled_history
+2021-10-01 15:43:37,207 DEBUG   HandlerThread:141009 [handler.py:handle_request():126] handle_request: shutdown
+2021-10-01 15:43:37,207 INFO    HandlerThread:141009 [handler.py:finish():683] shutting down handler
+2021-10-01 15:43:38,105 INFO    WriterThread:141009 [datastore.py:close():281] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Waste-Classification/wandb/run-20211001_154255-2ahcee5n/run-2ahcee5n.wandb
+2021-10-01 15:43:38,205 INFO    SenderThread:141009 [sender.py:finish():979] shutting down sender
+2021-10-01 15:43:38,205 INFO    SenderThread:141009 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-01 15:43:38,205 INFO    SenderThread:141009 [file_pusher.py:join():182] waiting for file pusher
+2021-10-01 15:43:38,205 INFO    MainThread:141009 [internal.py:handle_exit():76] Internal process exited
